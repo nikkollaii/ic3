@@ -1,0 +1,26 @@
+{
+  "item.ic3.tin_ingot": "Слиток олова",
+  "item.ic3.bronze_ingot": "Слиток бронзы",
+  "item.ic3.raw_tin": "Сырое олово",
+  "item.ic3.bronze_pickaxe": "Бронзовая кирка",
+  "item.ic3.bronze_axe": "Бронзовый топор",
+  "item.ic3.bronze_sword": "Бронзовый меч",
+  "item.ic3.bronze_shovel": "Бронзовая лопата",
+  "item.ic3.bronze_hoe": "Бронзовая мотыга",
+
+  "item.ic3.bronze_helmet": "Бронзовый шлем",
+  "item.ic3.bronze_chestplate": "Бронзовый нагрудник",
+  "item.ic3.bronze_leggings": "Бронзовые поножи",
+  "item.ic3.bronze_boots": "Бронзовые ботинки",
+
+  "block.ic3.bronze_block": "Блок бронзы",
+  "block.ic3.tin_block": "Блок олова",
+  "block.ic3.tin_ore": "Оловянная руда",
+  "block.ic3.deepslate_tin_ore": "Оловосодержащий глубинный сланец",
+  "block.ic3.generator": "Генератор",
+
+  "itemGroup.ic3Tab": "IC 3",
+
+  "message.ic3.generator.tooltip": "Силовой генератор",
+  "screen.ic3.generator": "Экран генератора"
+}

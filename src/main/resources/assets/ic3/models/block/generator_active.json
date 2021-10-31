@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "ic3:block/generator_bottom",
+		"up": "ic3:block/generator_top",
+		"north": "ic3:block/generator_front_active",
+		"south": "ic3:block/generator_leftrightback",
+		"east": "ic3:block/generator_leftrightback",
+		"west": "ic3:block/generator_leftrightback"
+	}
+}

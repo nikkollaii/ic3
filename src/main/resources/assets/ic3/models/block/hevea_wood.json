@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ic3:block/hevea_log",
+    "side": "ic3:block/hevea_log"
+  }
+}

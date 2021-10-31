@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ic3:hevea_log",
+    "ic3:hevea_wood",
+    "ic3:stripped_hevea_log",
+    "ic3:stripped_hevea_wood"
+  ]
+}

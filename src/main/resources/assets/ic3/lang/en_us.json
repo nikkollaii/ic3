@@ -1,0 +1,26 @@
+{
+  "item.ic3.tin_ingot": "Tin Ingot",
+  "item.ic3.bronze_ingot": "Bronze Ingot",
+  "item.ic3.raw_tin": "Raw Tin",
+  "item.ic3.bronze_pickaxe": "Bronze Pickaxe",
+  "item.ic3.bronze_axe": "Bronze Axe",
+  "item.ic3.bronze_sword": "Bronze Sword",
+  "item.ic3.bronze_shovel": "Bronze Shovel",
+  "item.ic3.bronze_hoe": "Bronze Hoe",
+
+  "item.ic3.bronze_helmet": "Bronze Helmet",
+  "item.ic3.bronze_chestplate": "Bronze Chestplate",
+  "item.ic3.bronze_leggings": "Bronze Leggings",
+  "item.ic3.bronze_boots": "Bronze Boots",
+
+  "block.ic3.bronze_block": "Bronze Block",
+  "block.ic3.tin_block": "Tin Block",
+  "block.ic3.tin_ore": "Tin Ore",
+  "block.ic3.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.ic3.generator": "Generator",
+
+  "itemGroup.ic3Tab": "IC 3",
+
+  "message.ic3.generator.tooltip": "The power generator",
+  "screen.ic3.generator": "Generator Screen"
+}

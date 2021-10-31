@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ic3:tin_ore",
+    "ic3:deepslate_tin_ore",
+    "ic3:tin_block",
+    "ic3:bronze_block"
+  ]
+}

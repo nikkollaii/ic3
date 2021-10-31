@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ic3:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "ic3:bronze_block"
+  }
+}

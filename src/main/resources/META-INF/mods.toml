@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+issueTrackerURL="https://github.com/nikkollaii/ic3/issues"
+
+[[mods]]
+modId="ic3"
+version="${file.jarVersion}"
+displayName="IC 3"
+# updateJSONURL="https://change.me.example.invalid/updates.json"
+# displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+# logoFile="ic3.png"
+authors="bednick"
+
+description='''
+This is a long form description of the mod.
+'''
+
+[[dependencies.ic3]] #optional
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ic3]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"

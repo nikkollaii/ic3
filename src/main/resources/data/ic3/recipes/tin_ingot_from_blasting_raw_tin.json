@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "ic3_ingot",
+  "ingredient": {
+    "item": "ic3:raw_tin"
+  },
+  "result": "ic3:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
