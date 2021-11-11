@@ -1,5 +1,8 @@
 package com.github.nikkollaii.ic3.setup;
 
+import com.github.nikkollaii.ic3.block.batbox.BatBoxBE;
+import com.github.nikkollaii.ic3.block.batbox.BatBoxBlock;
+import com.github.nikkollaii.ic3.block.batbox.BatBoxContainer;
 import com.github.nikkollaii.ic3.block.generator.GeneratorBE;
 import com.github.nikkollaii.ic3.block.generator.GeneratorBlock;
 import com.github.nikkollaii.ic3.block.generator.GeneratorContainer;
@@ -97,13 +100,22 @@ public class Registration {
     public static final RegistryObject<Block> HEVEA_LEAVES = BLOCKS.register("hevea_leaves", () -> leaves(SoundType.GRASS));
     public static final RegistryObject<BlockItem> HEVEA_LEAVES_ITEM = ITEMS.register("hevea_leaves", () -> new BlockItem(HEVEA_LEAVES.get(), new Item.Properties().tab(TAB)));
 
-    public static final RegistryObject<GeneratorBlock> GENERATOR = BLOCKS.register("generator", GeneratorBlock::new);
+    public static final RegistryObject<Block> GENERATOR = BLOCKS.register("generator", GeneratorBlock::new);
     public static final RegistryObject<BlockItem> GENERATOR_ITEM = ITEMS.register("generator", () -> new BlockItem(GENERATOR.get(), new Item.Properties().tab(TAB)));
-    public static final RegistryObject<BlockEntityType<GeneratorBE>> GENERATOR_BE = BLOCK_ENTITIES.register("generator", () -> BlockEntityType.Builder.of(GeneratorBE::new, GENERATOR.get()).build(null));
+    public static final RegistryObject<BlockEntityType<?>> GENERATOR_BE = BLOCK_ENTITIES.register("generator", () -> BlockEntityType.Builder.of(GeneratorBE::new, GENERATOR.get()).build(null));
     public static final RegistryObject<MenuType<GeneratorContainer>> GENERATOR_CONTAINER = CONTAINERS.register("generator", () -> IForgeContainerType.create((windowId, inv, data) -> {
         BlockPos pos = data.readBlockPos();
         Level world = inv.player.getCommandSenderWorld();
         return new GeneratorContainer(windowId, world, pos, inv, inv.player);
+    }));
+
+    public static final RegistryObject<Block> BATBOX = BLOCKS.register("batbox", BatBoxBlock::new);
+    public static final RegistryObject<BlockItem> BATBOX_ITEM = ITEMS.register("batbox", () -> new BlockItem(BATBOX.get(), new Item.Properties().tab(TAB)));
+    public static final RegistryObject<BlockEntityType<?>> BATBOX_BE = BLOCK_ENTITIES.register("batbox", () -> BlockEntityType.Builder.of(BatBoxBE::new, BATBOX.get()).build(null));
+    public static final RegistryObject<MenuType<BatBoxContainer>> BATBOX_CONTAINER = CONTAINERS.register("batbox", () -> IForgeContainerType.create((windowId, inv, data) -> {
+        BlockPos pos = data.readBlockPos();
+        Level world = inv.player.getCommandSenderWorld();
+        return new BatBoxContainer(windowId, world, pos, inv, inv.player);
     }));
 
     private static RotatedPillarBlock log(MaterialColor pTopColor, MaterialColor pBarkColor) {

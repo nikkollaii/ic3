@@ -1,19 +1,20 @@
-package com.github.nikkollaii.ic3.block.generator;
+package com.github.nikkollaii.ic3.block.batbox;
 
 import com.github.nikkollaii.ic3.IC3;
-import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
-public class GeneratorScreen extends AbstractContainerScreen<GeneratorContainer> {
 
-    private final ResourceLocation GUI = new ResourceLocation(IC3.MOD_ID, "textures/gui/guichargepadblock.png");
+public class BatBoxScreen extends AbstractContainerScreen<BatBoxContainer> {
 
-    public GeneratorScreen(GeneratorContainer container, Inventory inv, Component name) {
+    private final ResourceLocation GUI = new ResourceLocation(IC3.MOD_ID, "textures/gui/batbox_gui.png");
+
+    public BatBoxScreen(BatBoxContainer container, Inventory inv, Component name) {
         super(container, inv, name);
     }
 

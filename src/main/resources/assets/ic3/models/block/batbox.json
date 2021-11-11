@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "ic3:block/batbox_bottom",
+		"up": "ic3:block/batbox_top",
+		"north": "ic3:block/batbox_front",
+		"south": "ic3:block/batbox_back",
+		"east": "ic3:block/batbox_leftright",
+		"west": "ic3:block/batbox_leftright"
+	}
+}
